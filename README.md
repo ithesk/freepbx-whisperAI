@@ -29,13 +29,13 @@ Sistema automático de transcripción de llamadas para FreePBX usando OpenAI Whi
 ### Instalación automática:
 ```bash
 # Descargar el instalador
-wget https://raw.githubusercontent.com/tu-usuario/freepbx-transcriptor/main/instalador.sh
+wget https://github.com/ithesk/freepbx-whisperAI/main/setup.sh
 
 # Hacer ejecutable
-chmod +x instalador.sh
+chmod +x setup.sh
 
 # Ejecutar como root
-sudo ./instalador.sh
+sudo ./setup.sh
 ```
 
 El instalador automáticamente:
@@ -106,11 +106,11 @@ El sistema extrae automáticamente metadatos de los nombres de archivo FreePBX:
 
 ### Formato completo:
 ```
-external-2002-8493895277-20250523-090937-1748005759.433.wav
+external-2002-849000000-20250523-090937-1748005759.433.wav
     ↓
 📥 Llamada entrante externa
 📱 Extensión: 2002
-📞 Caller: 8493895277
+📞 Caller: 8490000000
 📅 Fecha: 23/05/2025 09:09:37
 ```
 
@@ -281,7 +281,7 @@ tail -f /var/log/freepbx-transcriptor.log
 📁 Archivo: external-2002-8493895277-20250523-090937.wav
 📥 Tipo: Llamada entrante externa
 📱 Extensión: 2002
-📞 Caller: 8493895277
+📞 Caller: 849000000
 📅 Fecha: 23/05/2025 09:09:37
 
 🎙️ Transcribiendo: external-2002-8493895277-20250523-090937.wav
@@ -345,9 +345,9 @@ Sí, cambia `WHISPER_LANGUAGE` en la configuración. OpenAI Whisper soporta más
 
 ## 📞 Soporte
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/tu-usuario/freepbx-transcriptor/issues)
-- 📧 **Email**: tu-email@ejemplo.com
-- 📚 **Documentación**: [Wiki del proyecto](https://github.com/tu-usuario/freepbx-transcriptor/wiki)
+- 🐛 **Issues**: [GitHub Issues] (https://github.com/ithesk/freepbx-whisperAI/issues)
+- 📧 **Email**: info@mo35.dev
+- 📚 **Documentación**: [Wiki del proyecto] (https://github.com/ithesk/freepbx-whisperAI/wiki)
 
 ## 📄 Licencia
 
